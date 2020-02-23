@@ -1,7 +1,6 @@
 # ts-specific-declarations-webpack-plugin
 
-This Webpack plugin generates a single TypeScript *.d.ts declaration file.
-Either for all or a specified list of entries.
+This Webpack plugin generates a single TypeScript *.d.ts declaration file per entry or per a list of a specified entry. The latter is a new feature which the forked repo does not offer.
 
 ### Installation
 
