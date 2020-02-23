@@ -38,8 +38,6 @@ new TsSpecificDeclarationWebpackPlugin( [entries] )
     ```
 * Will generate `app.d.ts`, `component.d.ts` and `adminPanel.d.ts` in the root directory
 
-```
-
 ### arguments
 
 `[entries]` - An optional array of objects which inludes the entries to generate the bundled *.d.ts for. If this argument is used, entries which are not in this list will be **exlucded**
