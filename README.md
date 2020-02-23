@@ -32,7 +32,7 @@ $ npm install ts-specific-declarations-webpack-plugin --save-dev
         ]
     }
     ```
-* Will generate `app.d.ts`, `component.d.ts` and `adminPanel.d.ts` in the root directory
+* Will generate `app.d.ts`, `component.d.ts` and `admin.d.ts` in the root directory
 
 ### Arguments
 
