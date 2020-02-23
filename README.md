@@ -9,10 +9,6 @@ Either for all or a specified list of entries.
 $ npm install ts-specific-declarations-webpack-plugin --save-dev
 ```
 
-```js
-new TsSpecificDeclarationWebpackPlugin( [entries] )
-```
-
 ### Usage
 
 * Simply add the plugin to `webpack.config.js`:
