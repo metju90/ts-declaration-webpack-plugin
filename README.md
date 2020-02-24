@@ -31,7 +31,7 @@ $ npm install ts-specific-declarations-webpack-plugin --save-dev
         ]
     }
     ```
-* Will generate `app.d.ts`, `component.d.ts` and `admin.d.ts` in the root directory
+* The above code will generate `app.d.ts`, `component.d.ts` and `admin.d.ts` in the root directory
 
 ### Arguments
 
@@ -46,14 +46,14 @@ $ npm install ts-specific-declarations-webpack-plugin --save-dev
                     },
                     {
                         name: 'admin',
-                        dir: './admin/'
+                        dir: './admin/' //optional
                     }
                 ]
             ),
         ]
 
     ```
-* Will generare `./app.d.ts`, `./admin/admin.d.ts` and will **exclude** the `component` entry since it was not specified
+* Using the same entries from the previous example, this generare `./app.d.ts`, `./admin/admin.d.ts` and will **exclude** the `component` entry since it was not specified
 
 
 ### Have Fun!
