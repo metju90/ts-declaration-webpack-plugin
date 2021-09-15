@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/metju90/ts-specific-declarations-webpack-plugin#readme",
   "dependencies": {
-    "dts-bundle-generator": "^1.6.1",
+    "dts-bundle-generator": "^4.0.0",
     "loader-utils": "^1.1.0"
   },
   "peerDependencies": {
